@@ -3,4 +3,4 @@
 echo "$1"
 DOCKER_FOLDER=dockerfiles
 
-docker build -f $DOCKER_FOLDER/$1.dockerfile .
+docker build -f $DOCKER_FOLDER/$1.dockerfile -t $1 .

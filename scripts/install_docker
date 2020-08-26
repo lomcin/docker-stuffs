@@ -23,7 +23,7 @@ sudo apt-get update -y
 
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
-sudo docker run hello-world
+#sudo docker run hello-world
 
 
 # Post-installation for docker to run without sudo
