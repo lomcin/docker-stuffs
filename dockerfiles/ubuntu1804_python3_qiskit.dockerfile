@@ -49,4 +49,7 @@ ENV PATH /opt/conda/bin:$PATH
 SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
 RUN echo $PATH
 RUN pip install qiskit
-ENTRYPOINT [ "python" ]
+RUN pip install pylatexenc
+RUN pip install jupyter
+# ENTRYPOINT [ "jupyter notebook" ]
+# ENTRYPOINT [ "python" ]
