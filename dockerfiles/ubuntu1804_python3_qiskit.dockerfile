@@ -51,5 +51,5 @@ RUN echo $PATH
 RUN pip install qiskit
 RUN pip install pylatexenc
 RUN pip install jupyter
-# ENTRYPOINT [ "jupyter notebook" ]
+ENTRYPOINT [ "/bin/bash", "-c", "cd /home && jupyter notebook ." ]
 # ENTRYPOINT [ "python" ]
