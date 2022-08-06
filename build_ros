@@ -1,0 +1,5 @@
+#!/bin/bash
+
+DOCKER_FOLDER=dockerfiles
+
+docker build -f $DOCKER_FOLDER/ros.dockerfile -t ros_image .

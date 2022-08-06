@@ -8,7 +8,13 @@ What is *contained* in this repository?
 # Easy Run
 
 ## MySQL server
-To easy start a MySQL server with the configurations provided on ``compose/mysql.yml`` file.
+To easily start a MySQL server with the configurations provided on ``compose/mysql.yml`` file.
 ```bash
 ./run_mysql.sh
+```
+
+## ROS 
+To easily start a ROS2 container:
+```bash
+./run_ros
 ```
