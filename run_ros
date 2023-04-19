@@ -1,5 +1,5 @@
 #!/bin/bash
-CONTAINER_LABEL=ros_container
+CONTAINER_LABEL=ros_$1
 
 WORKDIR=$(pwd)
 echo $WORKDIR
@@ -23,5 +23,5 @@ docker run -it --rm \
     --name="$CONTAINER_LABEL" \
     --volume="/dev/shm:/dev/shm:rw" \
     --workdir="$WORKDIR" \
-    ros_image
+    ros-$1
     # --volume="/dev:/dev:rw" \

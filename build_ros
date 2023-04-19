@@ -2,4 +2,4 @@
 
 DOCKER_FOLDER=dockerfiles
 
-docker build -f $DOCKER_FOLDER/ros.dockerfile -t ros_image .
+docker build -f $DOCKER_FOLDER/ros-$1.dockerfile -t ros-$1 .
