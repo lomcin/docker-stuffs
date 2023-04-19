@@ -14,7 +14,16 @@ To easily start a MySQL server with the configurations provided on ``compose/mys
 ```
 
 ## ROS 
-To easily start a ROS2 container:
+Available images:
+ - *melodic* (base)
+ - *noetic-full* (full + move base package)
+ - *noetic-full-buster* (the very complete version of ros and most common packages)
+
+To easily **build** a ROS container:
 ```bash
-./run_ros
+./build_ros [ros-version]
+```
+To easily **start** a ROS container:
+```bash
+./run_ros [ros-version]
 ```
