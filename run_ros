@@ -15,6 +15,7 @@ docker run -it --rm \
     --oom-kill-disable \
     --volume="/etc/group:/etc/group:ro" \
     --volume="$USER_HOME_PATH:/home/$USER:rw" \
+    --volume="/home/$USER/.ssh:/home/$USER/.ssh:rw" \
     --volume="/etc/passwd:/etc/passwd:ro" \
     --volume="/etc/shadow:/etc/shadow:ro" \
     --volume="/etc/sudoers.d:/etc/sudoers.d:ro" \
