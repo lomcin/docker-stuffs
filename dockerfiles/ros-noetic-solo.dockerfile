@@ -19,7 +19,6 @@ cd ~/solo_colcon_ws/src \n\
 git clone --recursive https://github.com/open-dynamic-robot-initiative/robot_properties_solo.git \n\
 git clone --recursive https://github.com/machines-in-motion/mpi_cmake_modules.git \n\
 git clone --recursive https://github.com/machines-in-motion/bullet_utils.git \n\
-git clone --recursive https://github.com/machines-in-motion/mujoco_utils.git \n\
 git clone --recursive https://github.com/stack-of-tasks/pinocchio.git \n\
 source /opt/ros/noetic/setup.bash \n\
 cd ~/solo_colcon_ws \n\
